@@ -1,6 +1,6 @@
+
 from flask import Flask, render_template, request, json
 from cipher.vigenere import VigenereCipher
-
 
 app = Flask(__name__)
 
